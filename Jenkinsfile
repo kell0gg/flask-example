@@ -15,7 +15,7 @@ node {
 }
 
 stage('Build image') {
-  app = docker.build("gasbugs/flask-example")
+  app = docker.build("kell0g/flask-example")
 }
 
 stage('Push image') {
